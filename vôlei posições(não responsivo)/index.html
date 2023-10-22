@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card de auxílio à escolha de posição</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Posições de vôlei recomendadas para você</h1>
+            <p>Prencha os campos com suas informações:</p>
+        </header>
+        <div id="sub-cont">
+        
+            <section id="cont-ask">
+                <div class="sub-ask">
+                    <label for="sexo">Sexo:</label>
+                    <select class="ask" name="sexo">
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </select>
+                </div>
+                <div class="sub-ask">
+                    <label for="altura">Altura:</label>
+                    <input type="tel" class="ask" placeholder="Em metros e use ( . ) não ( , )" name="altura" >
+                </div>
+                <div class="sub-ask">
+                    <p>Aqui era, originalmente, uma área para avaliarmos a posição com base no seu salto
+                        ,porém após analisar percebi que o tamanho do salto(ou impulsão como chamamos) é uma habilidade
+                        que você pode desenvolver de maneira expressiva independentemente de suas características
+                        físicas</p>
+                </div>
+                <button id="send" onclick="indique()">Clique e confira as nossas recomendações</button>
+                <div id="res"></div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
