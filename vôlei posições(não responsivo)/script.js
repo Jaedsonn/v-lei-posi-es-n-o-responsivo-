@@ -1,4 +1,3 @@
-
 function indique() {
     var perguntas = document.getElementsByClassName('ask')[0].value;
     var perguntas1 = parseFloat(document.getElementsByClassName('ask')[1].value);
@@ -19,12 +18,12 @@ function indique() {
     } else if (perguntas === "Feminino") {
         if (perguntas1 <= 1.60 || (perguntas1 >= 1.60 && perguntas1 < 1.70)) {
             resposta.innerHTML = "Líbero";
-        } else if (perguntas1 >= 1.70 && perguntas1 < 1.79) {
-            resposta.innerHTML = "Líbero, Levantadora ou Ponteira ";
+        } else if (perguntas1 >= 1.70 && perguntas1 <= 1.79) {
+            resposta.innerHTML = "Líbero ou Levantadora";
         } else if (perguntas1 > 1.79 && perguntas1 < 1.85) {
             resposta.innerHTML = " Líbero, levantadora, ponteira ou até mesmo oposta"
-        }  else {
+        } else {
             resposta.innerHTML = "Central, ou na posição que desejar(Central tendo em vista que existem jogadoras, como a Carol, que tem 1,80 e são centrais).Recomendo uma posição de ataque.";
-        } 
+        }
     }
 }
