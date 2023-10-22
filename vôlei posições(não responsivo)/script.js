@@ -7,18 +7,14 @@ function indique() {
     if (perguntas === "Masculino") {
         if (perguntas1 <= 1.60 || perguntas1 < 1.77) {
             resposta.innerHTML = "Líbero";
-            imagem.scr = "Serginho.jpg"
         } else if (perguntas1 > 1.75 && perguntas1 <= 1.85) {
             resposta.innerHTML = "Líbero ou Levantador";
         } else if (perguntas1 > 1.85 && perguntas1 < 1.90) {
             resposta.innerHTML = "Levantador, líbero ou ponteiro";
-            imagem.src = "Bruno.jpg"
         } else if (perguntas1 >= 1.90 && perguntas1 < 2.00) {
             resposta.innerHTML = "Levantador, líbero(Apesar de que, pela altura, seja mais eficiente escolher outra posição), ponteiro ou oposto";
-            imagem.src = "giba.jpg"
         } else {
             resposta.innerHTML = "Central, ou outra posição de sua vontade.Recomendo uma posição de que ataque"
-            imagem.src = "Lucao.jpg"
         }
     } else if (perguntas === "Feminino") {
         if (perguntas1 <= 1.60 || (perguntas1 >= 1.60 && perguntas1 < 1.70)) {
