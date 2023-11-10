@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18pt;
+    font-size: 16pt;
     background-color: #6f6af2;
 }
 
@@ -24,7 +24,7 @@ header {
 }
 
 header>h1 {
-    font-size: 22pt;
+    font-size: 18pt;
     text-align: center;
 }
 
@@ -33,8 +33,8 @@ header > p {
 }
 
 #container {
-    width:36.25rem;
-    height: 43.75rem;
+    width:34rem;
+    height: 38rem;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
